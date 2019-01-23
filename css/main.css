@@ -112,6 +112,12 @@ img {
   background-color: #fce3e6;
 }
 
+
+.bubble {
+    position: relative;
+    display: inline-block;
+}
+
 /* NAV top bar -------------------------------------------------------- */
 /*nav {
   background-color: #FFF;
