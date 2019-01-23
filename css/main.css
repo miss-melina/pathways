@@ -113,10 +113,54 @@ img {
 }
 
 
+/* Bubble Container */
 .bubble {
     position: relative;
     display: inline-block;
 }
+
+/* Bubble text */
+.bubble .bubbletext {
+    visibility: hidden;
+    width: 150px;
+    background-color: #555;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 5px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 2;
+    bottom: 50%;
+    left: 100%;
+    margin-left: 0px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+-/* Tooltip arrow */
+.bubble .bubbletext::after {
+    content: " ";
+    position: absolute;
+    right: 100%;
+    bottm: 50%;
+    margin-right: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.bubble:hover .bubbletext {
+    visibility: visible;
+    opacity: 1;
+}
+
 
 /* NAV top bar -------------------------------------------------------- */
 /*nav {
