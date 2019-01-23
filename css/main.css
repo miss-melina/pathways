@@ -1,1 +1,151 @@
 
+
+.container {
+	padding: 0px;
+	width: 900px;
+	height: auto;
+	background-color: #FFFFFF;
+	border: 1px solid #185ca0;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h1 {
+	text-align: center;
+	font-family: Calisto MT, Dotum, Times New Roman;
+	font-size: 4em;
+	color:#2d2929;
+	margin: 0;
+	padding 0;
+}
+.titlebar {
+	height: 2px;
+	width: 80%;
+	background-color: #2d2929;
+	border: 5px solid #FFFFFF;
+	top:80px;
+	margin: 0 auto;
+	padding:  0px;
+}
+.main-body{
+	height: auto;
+	width: 600px;
+	float: right;
+	
+}
+.footer{
+	height: 20px;
+	width: 900px;
+	clear: both;
+	text-align: center;
+}
+
+img {
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+/* NAV side bar ----------------------------*/
+.side-nav {
+	border-radius: 1px;
+	height: 60px;
+	width:200px;
+	opacity: 0.5;
+	float: left;
+}
+
+.side-nav ul {
+  border-top: 2px solid #FFFFFF;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: #d4d4d4;
+}
+
+.side-nav li{
+	font-family: Lato;
+	color: black;
+	border-bottom: 5px solid #FFFFFF;
+	line-height: 45px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.side-nav a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.side-nav ul :hover {
+  color: #ffffff;
+  background-color: #2d2929;
+}
+
+/* PINK button ------------- */
+
+.pink-button a {
+  cursor: pointer;
+  margin-right: 80px;
+  padding: 8px 18px;
+  border: 1px solid #185ca0;
+  position: relative;
+}
+.pink-button {
+  border-radius: 2px;
+  border: 0px;
+  color: #185ca0;
+  text-shadow: none;
+  background-color: #ffffff;
+  float: right;
+}
+.pink-button:hover {
+  color: #ffffff;
+  background-color: #fce3e6;
+}
+
+/* NAV top bar -------------------------------------------------------- */
+/*nav {
+  background-color: #FFF;
+  font-family: Calisto MT, Dotum, Times New Roman;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+  list-style: none;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #185ca0;
+  text-decoration: none;
+}*/
+/* END of Nav bar top link ------------------------------------- */
+
+
+
+/*.middle {
+	margin: 0;
+	padding: 0;
+	width: 60%;
+	height: 400px;
+	background-color: #FFFFFF;
+	border: 1px solid #185ca0;
+	top: 10px;
+	margin-left: 250px;
+}*/
