@@ -24,6 +24,16 @@ h1 {
 	margin: 0;
 	padding 0;
 }
+
+p {
+	text-align: center;
+	font-family: Calisto MT, Dotum, Times New Roman;
+	font-size: 2em;
+	color:#2d2929;
+	margin: 0;
+	padding 0;
+}
+
 .titlebar {
 	height: 2px;
 	width: 80%;
@@ -40,10 +50,10 @@ h1 {
 	
 }
 .footer{
-	height: 20px;
-	width: 900px;
-	clear: both;
 	text-align: center;
+	font-family: Calisto MT, Dotum, Times New Roman;
+	font-size: .5em;
+
 }
 
 img {
@@ -94,7 +104,7 @@ img {
   background-color: #2d2929;
 }
 
-/* PINK button ------------- */
+/* PINK button ------------- 
 
 .pink-button a {
   cursor: pointer;
@@ -115,28 +125,29 @@ img {
   color: #ffffff;
   background-color: #fce3e6;
 }
-
+*/
 
 /*  button ------------- */
 
+/* PERFECT BLUE #e8fce5. others --> 185ca0     e8fce5    e5f8fc */
+
 .button1 a {
   cursor: pointer;
-  margin-right: 80px;
-  padding: 8px 18px;
-  border: 1px solid #185ca0;
+  border: 0px solid #185ca0;
   position: relative;
 }
 .button1 {
-  border-radius: 5px;
+  border-radius: 50px;
   border: 0px;
-  color: #185ca0;
+  color: ;
   text-shadow: none;
-  background-color: #e8fce5;
-  float: right;
+  background-color: #e5f8fc;
+  float: center;
+  padding: 1em;
 }
 .button1:hover {
   color: #ffffff;
-  background-color: #e5f8fc;
+  background-color: #e8fce5;
 }
 
 /* Bubble Container */
@@ -159,7 +170,7 @@ img {
     position: absolute;
     z-index: 2;
     bottom: 50%;
-    left: 100%;
+    left: 500%;
     margin-left: 0px;
 
     /* Fade in tooltip */
@@ -187,6 +198,33 @@ img {
     opacity: 1;
 }
 
+
+
+/* Link */
+
+a:link {
+  color: #000000; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: #185ca0;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+  background-color: transparent;
+  /*text-decoration: underline;*/
+}
+
+a:active {
+  color: #d4ffb2;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 /* NAV top bar -------------------------------------------------------- */
 /*nav {
