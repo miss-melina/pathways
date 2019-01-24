@@ -119,14 +119,14 @@ img {
 
 /*  button ------------- */
 
-.button a {
+.button1 a {
   cursor: pointer;
   margin-right: 80px;
   padding: 8px 18px;
   border: 1px solid #185ca0;
   position: relative;
 }
-.button {
+.button1 {
   border-radius: 5px;
   border: 0px;
   color: #185ca0;
@@ -134,7 +134,7 @@ img {
   background-color: #e8fce5;
   float: right;
 }
-.button:hover {
+.button1:hover {
   color: #ffffff;
   background-color: #e5f8fc;
 }
