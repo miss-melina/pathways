@@ -221,9 +221,8 @@ a:hover {
 }
 
 a:active {
-  color: #d4ffb2;
+  color: #ffebb2;
   background-color: transparent;
-  text-decoration: underline;
 }
 
 /* NAV top bar -------------------------------------------------------- */
