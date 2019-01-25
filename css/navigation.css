@@ -5,23 +5,33 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #464949;
+  background-color: #272828;
 }
 
 li {
   float: left;
 }
 
-li a {
+li a:link {
   display: block;
-  color: white;
-  font-size: 30px; 
-  text-align: center;
-  padding: 14px 16px;
+  color: #d9dbdb;
+  font-size: 4em; 
   text-decoration: none;
 }
 
+/*
+li a:visited {
+  color: #185ca0;
+  background-color: transparent;
+  text-decoration: none;
+}
+*/
 
 li a:hover {
-  background-color: #e8fce5;
+  background-color: #404242;
 }
+
+li a:active {
+  color: #185ca0;
+  background-color: transparent;
+  }
