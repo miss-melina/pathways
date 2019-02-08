@@ -1,0 +1,15 @@
+.titlebar {
+  height: 2px;
+  width: 80%;
+  background-color: #2d2929;
+  /*
+  border: 5px solid #FFFFFF;
+  margin: 0 auto;
+  padding:  0px;
+  position: absolute;   
+ 
+  */ 
+  bottom: 400px;
+  margin: auto;
+    width: 50%;
+}

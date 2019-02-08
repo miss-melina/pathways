@@ -5,33 +5,35 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #272828;
+  background-color: #272828; /* Darker Grey, almost Black */
+      font-size: 20px;
 }
 
-li {
-  float: left;
+ul li a {
+  color: #ffebb2;
+}
+
+ul li a:hover {
+  color: #ffffff;
+}
+
+ul li  {
+  float: left;  
+    font-size: 20px; 
 }
 
 li a:link {
   display: block;
-  color: #d9dbdb;
+  color: #d9dbdb; /* Light Grey */
   font-size: 4em; 
   text-decoration: none;
 }
 
-/*
-li a:visited {
-  color: #185ca0;
-  background-color: transparent;
-  text-decoration: none;
-}
-*/
-
 li a:hover {
-  background-color: #404242;
+  background-color: #404242; /* Dark Grey */
 }
 
 li a:active {
-  color: #185ca0;
+  color: #185ca0; /* Blue */
   background-color: transparent;
-  }
+}

@@ -1,0 +1,64 @@
+/* PERFECT BLUE #e8fce5 */
+
+.button1 {
+  border-radius: 50px;
+  border: 0px;
+  color: ;
+  text-shadow: none;
+  background-color: #e5f8fc; /* Very Light Blue */
+  padding: 1em;
+  height: 50px;
+  width: 400px;
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.button1 a {
+  cursor: pointer;
+  border: 0px solid #185ca0; /* Blue */
+  position: relative;
+}
+
+.button1:hover {
+  color: #ffffff;
+  background-color: #272828; /* Dark Grey */
+  color: #ffebb2;
+}
+
+
+
+/* Link */
+
+a:link {
+  color: #000000; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: #185ca0; /* Blue */
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+  background-color: transparent;
+  /*text-decoration: underline;*/
+}
+
+a:active {
+  color: #ffebb2; /* Orange Color */
+  background-color: transparent;
+}
+
+h1 {
+  text-align: center;
+  font-family: Calisto MT, Dotum, Times New Roman;
+  font-size: 3em;
+  color:#2d2929;
+}

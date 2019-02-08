@@ -2,44 +2,67 @@
 <html>
   <head>
     <title>Books Page</title>
+    <script src="C:/Users/melin/bower_components/angular/angular.js"></script>
     <link type="text/css" rel="stylesheet" href="css/main.css"/>
-    <link type="text/css" rel="stylesheet" href="css/navigation.css"/>    
+    <link type="text/css" rel="stylesheet" href="css/navigation.css"/> 
+    <link type="text/css" rel="stylesheet" href="css/div-manager.css"/> 
+    <style>.done{text-decoration: line-through; color: grey;}</style>
+
   </head>
 
-<body>
+<body ng-app="ToDo"  style="background-color:#f7f7f7;">
+  
 
-   
        <ul>
             <li><a href="home.html" title="Home Page">Home</a></li>
             <li><a href="books.html" title="Books Page">Books</a></li>
-            <li><a href="daily.html" title="Daily Page">Daily</a></li>
-            <li>.</li>
-       </ul>
-  
+            <li><a href="daily.html" title="Daily Page">Daily</a></li>  
 
+       </ul>
+
+
+<div class="left-div">
   <h1>Section 1</h1>
     <p>Notes on Section 1</p>
   <h1>Section 2</h1>
     <p>Notes on Section 2</p>
   <h1>Section 3</h1>
     <p>Notes on Section 3</p>    
-
-    <br><br>
-
-    <div class="titlebar"></div>
-
-    <br><br>
+</div>
 
 
 
+<div class="right-div" id="div-background">
 
-    <div class="main-body">
-    </div>
+  <div ng-controller="ToDoController">
+    <form name="frm" ng-submit="addTodo()">
+      <input type="text" name="newtodo" ng-model="newTodo" required/>
+      <button ng-disabled="frm.$invalid">Go</button>
+    </form>
+    <button ng-click="clearCompleted()">Clear Completed</button>
+    <ul>
+      <li ng-repeat="todo in todos">
+        <input type="checkbox" ng-model="todo.done"/>
+        <span ng-class="{'done':todo.done}">
+        <h2>{{todo.title}}</h2>
+        </span>
+      </li>
+    </ul>
+      <!-- Modules -->
+      <script type="text/javascript" src="js/ToDo.js"></script>
+      <!-- Controllers -->
+      <script type="text/javascript" src="js/controllers/ToDoController.js"></script>
+
+
+  </div>
+
+</div>
+
 
 <br><br>
 
     <div class="footer">
-      <p> Footer. </p>
+      <p> CREATE. </p>
     </div>
 
 </body></html>

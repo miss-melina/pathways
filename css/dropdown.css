@@ -5,7 +5,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f7f7f7;
+  background-color: #f7f7f7; /* Almost White */
   min-width: 160px;
   box-shadow: 0px 2px 4px 4px rgba(10,0,0,.2);
   z-index: 1;
@@ -17,7 +17,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #f1f1f1 /* Almost White Almost Grey */
 }
 
 .dropdown:hover .dropdown-content {
