@@ -27,7 +27,11 @@ p {
 	font-size: 2em;
 	color:#2d2929; /* Darker Grey, almost Black */
 	margin: 0;
-	padding 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
 }
 
 .footer{

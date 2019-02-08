@@ -6,7 +6,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #272828; /* Darker Grey, almost Black */
-      font-size: 20px;
+  font-size: 20px;
 }
 
 ul li a {
@@ -19,7 +19,7 @@ ul li a:hover {
 
 ul li  {
   float: left;  
-    font-size: 20px; 
+  font-size: 20px; 
 }
 
 li a:link {
