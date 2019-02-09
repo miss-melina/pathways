@@ -21,6 +21,33 @@ h2 {
 	padding 0;
 }
 
+h3 {
+	text-align: center;
+	font-family: Calisto MT, Dotum, Times New Roman;
+	font-size: 2em;
+    color: #2d2929; /* Darker Grey, almost Black */
+    margin: 0;
+	padding 0;
+}
+
+h4 {
+	text-align: center;
+	font-family: Calisto MT, Dotum, Times New Roman;
+	font-size: 3em;
+    color: #ffebb2; /* Orange Color */
+    margin: 0;
+	padding 0;
+}
+
+h5 {
+	text-align: center;
+	font-family: Calisto MT, Dotum, Times New Roman;
+	font-size: 3em;
+    color: #2d2929; /* Darker Grey, almost Black */
+    margin: 0;
+	padding 0;
+}
+
 p {
 	text-align: center;
 	font-family: Calisto MT, Dotum, Times New Roman;
