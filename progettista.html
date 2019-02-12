@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Progettista</title>
+    <script src="C:/Users/melin/bower_components/angular/angular.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
+    <link type="text/css" rel="stylesheet" href="css/navigation-daily.css"/> 
+    <link type="text/css" rel="stylesheet" href="css/div-manager.css"/> 
+    <link type="text/css" rel="stylesheet" href="css/title-bar.css"/> 
+    <link type="text/css" rel="stylesheet" href="css/button-back.css"/> 
+  </head>
+
+<body ng-app="List">
+
+<div id="wrapper">
+    <div id="first">
+      <a href="home.html" title="Home Page"><div id="triangle-left"></div></a>
+    </div>
+    <div id="second">
+      <a href="home.html" title="Home Page"><h3>Back to Home Page</h3></a>
+    </div>
+</div>
+
+
+  <div class="left-div" id="div-background">
+      <h4><i>This Weeks Tasks</i></h4>
+  </div>
+
+  <div class="right-div">
+      <h5><i>Previous Tasks</i></h5>
+    <!-- Angular pieces --> 
+
+
+        <div ng-controller="MainController">
+          <div ng-repeat="item in list">
+              <li>{{ item }}</li>
+          </div>
+          <input ng-model="addToList">
+          <button ng-click="addItem()">Add</button>
+        </div>
+
+      <!-- Modules -->
+      <script type="text/javascript" src="js/app.js"></script>
+      <!-- Controllers -->
+      <script type="text/javascript" src="js/controllers/MainController.js"></script>
+
+    <!-- Angular Pieces end --> 
+  </div>
+
+
+    <br><br><div class="titlebar"></div><br><br>
+
+
+
+
+    <div class="main-body">
+    </div>
+
+<br><br>
+
+    <div class="footer">
+      <a href="index.html" title="Home Page">
+      <p> CREATE. </p>
+      </a>
+    </div>
+
+</body></html>
